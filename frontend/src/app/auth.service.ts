@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, tap } from 'rxjs';
 
-export const API = 'https://greensigma.onrender.com';
+export const API = 'https://greensigma.onrender.com/api';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
